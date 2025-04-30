@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trivia Colombia</title>
+  <link rel="stylesheet" href="stylehome1.css">
+</head>
+<body>
+
+  <header>
+    <img src="logotipo-removebg-preview.png" alt="Logo">
+    <nav class="menu">
+      <a href="#">Ranking</a>
+      <a href="#">Regístrate</a>
+      <a href="#">Iniciar Sesión</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="texto-bienvenida">
+      <h1>¿QUÉ TANTO SABES DE COLOMBIA?</h1>
+      <p>¡Anímate a averiguarlo en esta divertida trivia!</p>
+      <button onclick="irAJuego()">COMENZAR</button>
+    </div>
+    <img src="chiva colombiana.jpeg" alt="La Colombiana">
+  </section>
+
+  <script>
+    function irAJuego() {
+      window.location.href = "juego.html";
+    }
+  </script>
+   </header>
+   <div class="contenedor-bienvenida">
+     <img src="COLOMBIA-removebg-preview.png" alt="Logo Colombia" class="logo-bienvenida">
+     <p>
+       <strong>Colombia, el corazón de América del Sur, es un país vibrante y lleno de contrastes.</strong><br>
+       Desde sus imponentes montañas andinas hasta sus playas paradisíacas en el Caribe y el Pacífico, Colombia ofrece una riqueza natural incomparable. 
+       Su cultura es un mosaico fascinante que mezcla tradiciones indígenas, africanas y europeas, 
+       reflejándose en su música, danzas, gastronomía y festividades. Además, Colombia es conocida por su café, considerado uno de los mejores del mundo, y por su calidez y alegría contagiosa.
+     </p>
+     <p>
+       ¿Cuánto sabes sobre esta tierra mágica? Pon a prueba tus conocimientos y diviértete participando en una trivia de cultura general sobre Colombia. 
+       ¡Descubre datos curiosos, aprende algo nuevo y reta a tus amigos a demostrar quién es el verdadero experto en Colombia! 🇨🇴✨
+       <strong>¿Te animas?</strong>
+     </p>
+   </div>
+   <main class="main-container">
+     <section class="login-container">
+       <h2>Iniciar sesión</h2>
+       <p>Inicia sesión para que tu puntaje se ubique en nuestro ranking</p>
+       <form id="loginForm">
+         <input type="email" placeholder="Correo electrónico" id="email" required />
+         <input type="password" placeholder="Contraseña" id="password" required />
+         <button type="submit" class="btn-iniciar">Iniciar Sesión</button>
+       </form>
+       <div class="links">
+         <a href="#">¿Ha olvidado la contraseña?</a><br>
+         <span>No tengo cuenta. <a href="#">Regístrese ahora</a></span>
+       </div>
+       <p class="jugar-sin-ranking">Iniciar un juego sin entrar en el ranking</p>
+       <a href="juego.html" class="btn-jugar">JUGAR</a>
+     </section>
+   </main>
+     
+   </main>
+   <footer class="footer">
+     <a href="#"><img src="facebook-logo-clipart-6.png" alt="facebook" /></a>
+     <a href="#"><img src="instagram-removebg-preview.png" alt="instagram" /></a>
+     <a href="#"><img src="correo-removebg-preview.png" alt="correo" /></a>
+   </footer>
+
+   <script src="Java.js"></script>
+ </body>
+</html>    

@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    color: white;
+  }
+
+  header img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .menu {
+    display: flex;
+    gap: 20px;
+  }
+
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFC107;
+    padding: 50px 30px;
+    min-height: 90vh;
+  }
+
+  .texto-bienvenida {
+    flex: 1;
+    color: white;
+    text-align: center;
+  }
+
+  .texto-bienvenida h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .texto-bienvenida p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .texto-bienvenida button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .hero img {
+    max-width: 1200px;
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+    }
+
+    .hero img {
+      margin-top: 30px;
+    }
+  }
+  .contenedor-bienvenida {
+    background-color: #dceeff; /* azul cielo */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centra vertical */
+    align-items: center;     /* centra horizontal */
+    padding: 40px 30px;
+    box-sizing: border-box;
+    text-align: justify;
+    line-height: 1.8;
+    color: #222;
+  }
+  
+  /* Imagen centrada arriba del texto */
+  .logo-bienvenida {
+    max-width: 180px;
+    margin-bottom: 25px;
+  }
+  
+  /* Texto fuerte */
+  .contenedor-bienvenida strong {
+    color: #1a1a1a;
+  }
+  
+  /* Texto con ancho limitado para buena lectura */
+  .contenedor-bienvenida p {
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive opcional */
+  @media (max-width: 600px) {
+    .contenedor-bienvenida {
+      padding: 25px 20px;
+      font-size: 16px;
+    }
+  
+    .logo-bienvenida {
+      max-width: 140px;
+      margin-bottom: 15px;
+    }
+  
+    .contenedor-bienvenida p {
+      max-width: 90%;
+    }
+  }
+  .main-container {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('REGISTRATE.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000;
+  }
+  
+  
+  /* Contenedor principal */
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('REGISTRATE.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000;
+  }
+  
+  
+  /* Sección del formulario */
+  .login-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    width: 30%;
+  }
+  
+  
+  .login-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  
+  .login-container p {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  
+  .btn-iniciar {
+    width: 100%;
+    background-color: #6c63ff;
+    color: white;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  
+  .links {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+  }
+  
+  
+  .links a {
+    color: #6c63ff;
+    text-decoration: none;
+  }
+  .btn-jugar {
+    width: 100%;
+    background-color: #f71919;
+    color: white;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 20px; 
+  }
+/* Footer con íconos */
+.footer{
+    background-color: #2a2aeb;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+  }
+  
+  .footer a img{
+    width: 30px;
+    margin: 0 10px;
+  }

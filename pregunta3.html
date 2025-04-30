@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trivia Colombiana - Home</title>
+  <link rel="stylesheet" href="style preguntas principiantes.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="logotipo-removebg-preview.png" class="logo" alt="logo" />
+      <ul>
+        <li><a href="#">Ranking</a></li>
+        <li><a href="registro.html">Regístrate</a></li>
+        <li><a href="registro.html">Iniciar Sesión</a></li>
+      </ul>
+    </nav>
+    <main class="pregunta-container">
+      <!-- Pregunta 1 -->
+      <div class="marco-pregunta pregunta" id="pregunta1">
+        <div class="imagen-con-opciones">
+          <img src="PREGUNTA 1 NIVEL PRINCIPIANTE.jpeg" alt="pregunta" class="imagen-pregunta" />
+        </div>
+        <div class="opciones">
+          <button class="opcion" data-correcto="false">1819</button>
+          <button class="opcion" data-correcto="false">1812</button>
+          <button class="opcion" data-correcto="true">1810</button>
+          <button class="opcion" data-correcto="false">1820</button>
+        </div>
+        <p id="resultado" class="mensaje"></p>
+        <button id="btn-siguiente" class="btn-siguiente" style="display: none;">Siguiente Pregunta</button>
+      </div>
+    
+      <!-- Pregunta 2 -->
+      <div class="marco-pregunta pregunta" id="pregunta2" style="display: none;">
+        <div class="imagen-con-opciones">
+          <img src="PREGUNTA 2 NIVEL PRINCIPIANTE.jpeg" alt="pregunta 2" class="imagen-pregunta" />
+        </div>
+        <div class="opciones">
+          <button class="opcion" data-correcto="false">ENVIGADO</button>
+          <button class="opcion" data-correcto="true">MEDELLIN</button>
+          <button class="opcion" data-correcto="false">BELLO</button>
+          <button class="opcion" data-correcto="false">RIONEGRO</button>
+        </div>
+        <p id="resultado2" class="mensaje"></p>
+        <button id="btn-siguiente2" class="btn-siguiente" style="display: none;">Siguiente Pregunta</button>
+      </div>
+    
+      <!-- Pregunta 3 -->
+      <div class="marco-pregunta pregunta" id="pregunta3" style="display: none;">
+        <div class="imagen-con-opciones">
+          <img src="PREGUNTA 3 NIVEL PRINCIPIANTE.jpeg" alt="pregunta 3" class="imagen-pregunta" />
+        </div>
+        <div class="opciones">
+          <button class="opcion" data-correcto="false">FESTIVAL VALLENATO</button>
+          <button class="opcion" data-correcto="true">CARNAVAL</button>
+          <button class="opcion" data-correcto="false">FERIA DE LAS FLORES</button>
+          <button class="opcion" data-correcto="false">FESTIVAL BAMBUCO</button>
+        </div>
+        <p id="resultado3" class="mensaje"></p>
+         <button id="btn-siguiente2" class="btn-siguiente" style="display: none;">Siguiente Pregunta</button>
+      </div>
+
+       <!-- Pregunta 4 -->
+       <div class="marco-pregunta pregunta" id="pregunta4" style="display: none;">
+        <div class="imagen-con-opciones">
+          <img src="PREGUNTA 4 NIVEL PRINCIPIANTE.jpeg" alt="pregunta 4" class="imagen-pregunta" />
+        </div>
+        <div class="opciones">
+          <button class="opcion" data-correcto="false">NAIRO QUINTANA</button>
+          <button class="opcion" data-correcto="true">EGAN BERNAL</button>
+          <button class="opcion" data-correcto="false">MIGUEL LOPEZ</button>
+          <button class="opcion" data-correcto="false">RIGOBERTO URAN</button>
+        </div>
+        <p id="resultado4" class="mensaje"></p>
+         <button id="btn-siguiente2" class="btn-siguiente" style="display: none;">Siguiente Pregunta</button>
+      </div>
+       
+        <!-- Pregunta 5 -->
+<div class="marco-pregunta pregunta" id="pregunta5" style="display: none;">
+  <div class="imagen-con-opciones">
+    <img src="PREGUNTA 5 NIVEL PRINCIPIANTE.jpeg" alt="pregunta 5" class="imagen-pregunta" />
+  </div>
+  <div class="opciones">
+    <button class="opcion" data-correcto="true">VENEZUELA</button>
+    <button class="opcion" data-correcto="false">ARGENTINA</button>
+    <button class="opcion" data-correcto="false">BRASIL</button>
+    <button class="opcion" data-correcto="false">CHILE</button>
+  </div>
+  <p class="mensaje"></p>
+  <button class="btn-siguiente btn-finalizar" style="display: none;">Finalizar</button>
+</div>
+
+    </main>    
+    
+    <script src="java preguntas principiante.js"></script>
+  </body>
+  <footer class="footer">
+    <a href="#"><img src="facebook-logo-clipart-6.png" alt="facebook" /></a>
+    <a href="#"><img src="instagram-removebg-preview.png" alt="instagram" /></a>
+    <a href="#"><img src="correo-removebg-preview.png" alt="correo" /></a>
+  </footer>
+
+  </html>

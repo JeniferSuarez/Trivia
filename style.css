@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 0px;
+
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  background-color:  rgb(85, 167, 58);
+  padding-top: 25px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+nav .logo {
+  width: 120px;
+  height: 60px;
+  justify-content:left;
+  margin-right: 850px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0px;
+
+}
+
+nav ul {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* Contenedor principal */
+.trivia-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem;
+  background-image: url('REGISTRATE.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* Lado izquierdo - formulario */
+.trivia-left {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form-box {
+  background-color: yellow;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid black;
+  max-width: 300px;
+}
+
+
+.form-box h2 {
+  margin-bottom: 1rem;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+.form-box input {
+  width: 90%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 25px;
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+.form-box button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.7rem 2rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+.contenedor-nivel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3366F4;
+}
+
+.nivel-box {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.nivel-box img {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* Posicionamos los botones en la parte inferior de la imagen */
+.niveles-botones {
+  position: absolute;
+  bottom: 10%; /* Puedes ajustar este valor para acercarlos más al borde */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1rem;
+}
+
+/* Botones */
+.nivel-btn {
+  padding: 0.5rem 1rem; /* Más pequeños */
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  background-color: white;
+  border: 2px solid black;
+  transition: all 0.3s ease;
+  color: gold;
+}
+
+.nivel-btn:hover {
+  transform: scale(1.05);
+}
+/* Footer con íconos */
+.footer{
+  background-color: #2a2aeb;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.footer a img{
+  width: 30px;
+  margin: 0 10px;
+}

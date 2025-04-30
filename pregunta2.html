@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trivia Colombiana - Home</title>
+  <link rel="stylesheet" href="style preguntas experto.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="logotipo-removebg-preview.png" class="logo" alt="logo" />
+      <ul>
+        <li><a href="#">Ranking</a></li>
+        <li><a href="registro.html">Regístrate</a></li>
+        <li><a href="registro.html">Iniciar Sesión</a></li>
+      </ul>
+    </nav>
+    <main class="pregunta-container">
+      <!-- Pregunta 1 -->
+      <div class="marco-pregunta pregunta" id="pregunta1">
+        <div class="imagen-con-opciones">
+          <img src="PREGUNTA 1 NIVEL EXPERTO.png" alt="pregunta" class="imagen-pregunta" />
+        </div>
+        <div class="opciones">
+          <button class="opcion" data-correcto="false">TRATADO DE BOYACA</button>
+          <button class="opcion" data-correcto="false">TRATADO DE CUCUTA</button>
+          <button class="opcion" data-correcto="true">CONVENIO DE APULO</button>
+          <button class="opcion" data-correcto="false">TRATADO DE NERLANDIA</button>
+        </div>
+        <p id="resultado" class="mensaje"></p>
+        <button id="btn-siguiente" class="btn-siguiente" style="display: none;">Siguiente Pregunta</button>
+      </div>
+    
+      <!-- Pregunta 2 -->
+      <div class="marco-pregunta pregunta" id="pregunta2" style="display: none;">
+        <div class="imagen-con-opciones">
+          <img src="PREGUNTA 2 NIVEL EXPERTO.png" alt="pregunta 2" class="imagen-pregunta" />
+        </div>
+        <div class="opciones">
+          <button class="opcion" data-correcto="false">UNO</button>
+          <button class="opcion" data-correcto="true">DOS</button>
+          <button class="opcion" data-correcto
+          ="false">TRES</button>
+          <button class="opcion" data-correcto="false">CUATRO</button>
+        </div>
+        <p id="resultado2" class="mensaje"></p>
+        <button id="btn-siguiente2" class="btn-siguiente" style="display: none;">Siguiente Pregunta</button>
+      </div>
+    
+      <!-- Pregunta 3 -->
+      <div class="marco-pregunta pregunta" id="pregunta3" style="display: none;">
+        <div class="imagen-con-opciones">
+          <img src="PREGUNTA 3 NIVEL EXPERTO.png" alt="pregunta 3" class="imagen-pregunta" />
+        </div>
+        <div class="opciones">
+          <button class="opcion" data-correcto="false">CINCO</button>
+          <button class="opcion" data-correcto="true">SEIS</button>
+          <button class="opcion" data-correcto="false">CUATRO</button>
+          <button class="opcion" data-correcto="false">SIETE</button>
+        </div>
+        <p id="resultado3" class="mensaje"></p>
+         <button id="btn-siguiente2" class="btn-siguiente" style="display: none;">Siguiente Pregunta</button>
+      </div>
+
+       <!-- Pregunta 4 -->
+       <div class="marco-pregunta pregunta" id="pregunta4" style="display: none;">
+        <div class="imagen-con-opciones">
+          <img src="PREGUNTA 4 NIVEL EXPERTO.png" alt="pregunta 4" class="imagen-pregunta" />
+        </div>
+        <div class="opciones">
+          <button class="opcion" data-correcto="false">MEDELLIN</button>
+          <button class="opcion" data-correcto="true">BOGOTA</button>
+          <button class="opcion" data-correcto="false">BARRANQUILLA</button>
+          <button class="opcion" data-correcto="false">CALI</button>
+        </div>
+        <p id="resultado4" class="mensaje"></p>
+         <button id="btn-siguiente2" class="btn-siguiente" style="display: none;">Siguiente Pregunta</button>
+      </div>
+       
+        <!-- Pregunta 5 -->
+<div class="marco-pregunta pregunta" id="pregunta5" style="display: none;">
+  <div class="imagen-con-opciones">
+    <img src="PREGUNTA 5 NIVEL EXPERTO.png" alt="pregunta 5" class="imagen-pregunta" />
+  </div>
+  <div class="opciones">
+    <button class="opcion" data-correcto="true">FRANCISCO SANTANDER</button>
+    <button class="opcion" data-correcto="false">JOSE HILARIO</button>
+    <button class="opcion" data-correcto="false">SIMMON BOLIVAR</button>
+    <button class="opcion" data-correcto="false">ANTONIO NARIÑO</button>
+  </div>
+  <p class="mensaje"></p>
+  <button class="btn-siguiente btn-finalizar" style="display: none;">Finalizar</button>
+</div>
+
+    </main>    
+    
+    <script src="java preguntas experto.js"></script>
+  </body>
+  <footer class="footer">
+    <a href="#"><img src="facebook-logo-clipart-6.png" alt="facebook" /></a>
+    <a href="#"><img src="instagram-removebg-preview.png" alt="instagram" /></a>
+    <a href="#"><img src="correo-removebg-preview.png" alt="correo" /></a>
+  </footer>
+
+  </html>
